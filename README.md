@@ -1,9 +1,14 @@
 # NameGenerator
 
-Erstelle einen zufälligen Namen mit vielen Optionen.
+## Installation
+
+```
+git clone https://github.com/ChampOfGames/NameGenerator.git
+```
+
 
 **Optionen:**
- - Wahl zwischen normalem- und "Gamernamen"
+ - Wahl zwischen normalem Namen oder "Gamernamen"
  - Wahl zwischen Jungs oder Mädchen Name
  - Wahl zwischen Obst oder [Sonstiges](https://github.com/ChampOfGames/NameGenerator/blob/master/sonstiges.md) Namen
  - Wahl zwischen Zahl am Ende oder nicht
