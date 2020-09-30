@@ -6,14 +6,6 @@
 git clone https://github.com/ChampOfGames/NameGenerator.git
 ```
 
-
-**Optionen:**
- - Wahl zwischen normalem Namen oder "Gamernamen"
- - Wahl zwischen Jungs oder Mädchen Name
- - Wahl zwischen Obst oder [Sonstiges](https://github.com/ChampOfGames/NameGenerator/blob/master/sonstiges.md) Namen
- - Wahl zwischen Zahl am Ende oder nicht
-
-
 ## Usage and Output
 ```php
 require_once("gen.php");
@@ -26,7 +18,13 @@ $gen->generateName();
  * CherimoyaAmya
  */
 ```
-Mögliche Einstellungen:
+**Mögliche Einstellungen:**
+
+ - Wahl zwischen normalem Namen oder "Gamernamen"
+ - Wahl zwischen Jungs oder Mädchen Name
+ - Wahl zwischen Obst oder [Sonstiges](https://github.com/ChampOfGames/NameGenerator/blob/master/sonstiges.md) Namen
+ - Wahl zwischen Zahl am Ende oder nicht
+
 ```php
 $parts = 0 | 1;
 $gender "boy" | "girl" | "random";
